@@ -1,4 +1,3 @@
-
 coopBosses = { -- ID, X, Y
 	{ID = 636, X = 116, Y = 197}, --coop1
 	{ID = 660, X = 150, Y = 100}, --coop2
@@ -52,9 +51,12 @@ coopConditions = {
 	{
 --		coopMapsNoEnemiesOnMap,
 --		coopMapsNoNpcBuildingsOnMap,
-		ObjectExists { X = 161, Y = 436, ObjectId = 1974 },
-		ObjectExists { X = 261, Y = 442, ObjectId = 960 },
-		ObjectExists { X = 162, Y = 392, ObjectId = 589 },
+	-- ObjectExists { X = 161, Y = 436, ObjectId = 1974 },
+	-- ObjectExists { X = 261, Y = 442, ObjectId = 960 },
+	-- ObjectExists { X = 162, Y = 392, ObjectId = 589 },
+        ObjectExists { X = 261, Y = 450, ObjectId = 2120 },
+        ObjectExists { X = 377, Y = 357, ObjectId = 787 },
+        ObjectExists { X = 313, Y = 123, ObjectId = 882 },
 	}, --coop2
 	{
 --        coopMapsNoEnemiesOnMap,
@@ -67,10 +69,14 @@ coopConditions = {
 	{
 --		coopMapsNoEnemiesOnMap,
 --		coopMapsNoNpcBuildingsOnMap,
-		ObjectExists { X = 277, Y = 141, ObjectId = 2014 },
-		ObjectExists { X = 215, Y = 266, ObjectId = 2089 },
-		ObjectExists { X = 173, Y = 455, ObjectId = 2038 },
-		ObjectExists { X = 177, Y = 454, ObjectId = 2002 },
+--		ObjectExists { X = 277, Y = 141, ObjectId = 2014 },
+--		ObjectExists { X = 215, Y = 266, ObjectId = 2089 },
+--		ObjectExists { X = 173, Y = 455, ObjectId = 2038 },
+--		ObjectExists { X = 177, Y = 454, ObjectId = 2002 },
+        ObjectExists { X = 425, Y = 316, ObjectId = 2119 },
+        ObjectExists { X = 332, Y = 302, ObjectId = 2064 },
+        ObjectExists { X = 102, Y = 289, ObjectId = 842 },
+        ObjectExists { X = 208, Y = 311, ObjectId = 9512 },
 	}, --coop4
 	{
 --		coopMapsNoEnemiesOnMap,
