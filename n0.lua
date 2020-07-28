@@ -434,53 +434,11 @@ allMapActions = function(coopId, unitId, _X, _Y)
 
 	return actions
 end
-CreateStateMachine = function(_arg0, _arg1, _arg2, _arg3, _arg4)
-	BeginDefinition(_arg0, _arg1, _arg2, _arg3, _arg4)
-	OnOneTimeEvent { Conditions = allMapConditions(1), Actions = allMapActions(1, coopBosses[1].ID, coopBosses[1].X, coopBosses[1].Y) } --coop1
-	OnOneTimeEvent { Conditions = allMapConditions(2), Actions = allMapActions(2, coopBosses[2].ID, coopBosses[2].X, coopBosses[2].Y) } --coop2
-	OnOneTimeEvent { Conditions = allMapConditions(3), Actions = allMapActions(3, coopBosses[3].ID, coopBosses[3].X, coopBosses[3].Y) } --coop3
-	OnOneTimeEvent { Conditions = allMapConditions(4), Actions = allMapActions(4, coopBosses[4].ID, coopBosses[4].X, coopBosses[4].Y) } --coop4
-	OnOneTimeEvent { Conditions = allMapConditions(5), Actions = allMapActions(5, coopBosses[5].ID, coopBosses[5].X, coopBosses[5].Y) } --coop5
-	OnOneTimeEvent { Conditions = allMapConditions(6), Actions = allMapActions(6, coopBosses[6].ID, coopBosses[6].X, coopBosses[6].Y) } --coop6
-	OnOneTimeEvent { Conditions = allMapConditions(7), Actions = allMapActions(7, coopBosses[7].ID, coopBosses[7].X, coopBosses[7].Y) } --coop7
-	OnOneTimeEvent { Conditions = allMapConditions(8), Actions = allMapActions(8, coopBosses[8].ID, coopBosses[8].X, coopBosses[8].Y) } --coop8
-	OnOneTimeEvent { Conditions = allMapConditions(9), Actions = allMapActions(9, coopBosses[9].ID, coopBosses[9].X, coopBosses[9].Y) } --coop9
-	OnOneTimeEvent { Conditions = allMapConditions(10), Actions = allMapActions(10, coopBosses[10].ID, coopBosses[10].X, coopBosses[10].Y) } --coop10
-	OnOneTimeEvent { Conditions = allMapConditions(11), Actions = allMapActions(11, coopBosses[11].ID, coopBosses[11].X, coopBosses[11].Y) } --coop11
-	OnOneTimeEvent { Conditions = allMapConditions(12), Actions = allMapActions(12, coopBosses[12].ID, coopBosses[12].X, coopBosses[12].Y) } --coop12
-	OnOneTimeEvent { Conditions = allMapConditions(13), Actions = allMapActions(13, coopBosses[13].ID, coopBosses[13].X, coopBosses[13].Y) } --coop13
-	OnOneTimeEvent { Conditions = allMapConditions(14), Actions = allMapActions(14, coopBosses[14].ID, coopBosses[14].X, coopBosses[14].Y) } --coop14
-	OnOneTimeEvent { Conditions = allMapConditions(15), Actions = allMapActions(15, coopBosses[15].ID, coopBosses[15].X, coopBosses[15].Y) } --coop15
-	OnOneTimeEvent { Conditions = allMapConditions(16), Actions = allMapActions(16, coopBosses[16].ID, coopBosses[16].X, coopBosses[16].Y) } --coop16
-	OnOneTimeEvent { Conditions = allMapConditions(17), Actions = allMapActions(17, coopBosses[17].ID, coopBosses[17].X, coopBosses[17].Y) } --coop17
-	OnOneTimeEvent { Conditions = allMapConditions(18), Actions = allMapActions(18, coopBosses[18].ID, coopBosses[18].X, coopBosses[18].Y) } --coop18
-	OnOneTimeEvent { Conditions = allMapConditions(19), Actions = allMapActions(19, coopBosses[19].ID, coopBosses[19].X, coopBosses[19].Y) } --coop19
-	OnOneTimeEvent { Conditions = allMapConditions(20), Actions = allMapActions(20, coopBosses[20].ID, coopBosses[20].X, coopBosses[20].Y) } --coop20
-	OnOneTimeEvent { Conditions = allMapConditions(21), Actions = allMapActions(21, coopBosses[21].ID, coopBosses[21].X, coopBosses[21].Y) } --coop21
-	OnOneTimeEvent { Conditions = allMapConditions(22), Actions = allMapActions(22, coopBosses[22].ID, coopBosses[22].X, coopBosses[22].Y) } --coop22
-	OnOneTimeEvent { Conditions = allMapConditions(23), Actions = allMapActions(23, coopBosses[23].ID, coopBosses[23].X, coopBosses[23].Y) } --coop23
-	OnOneTimeEvent { Conditions = allMapConditions(24), Actions = allMapActions(24, coopBosses[24].ID, coopBosses[24].X, coopBosses[24].Y) } --coop24
-	OnOneTimeEvent { Conditions = allMapConditions(25), Actions = allMapActions(25, coopBosses[25].ID, coopBosses[25].X, coopBosses[25].Y) } --coop25
-	OnOneTimeEvent { Conditions = allMapConditions(26), Actions = allMapActions(26, coopBosses[26].ID, coopBosses[26].X, coopBosses[26].Y) } --coop26
-	OnOneTimeEvent { Conditions = allMapConditions(27), Actions = allMapActions(27, coopBosses[27].ID, coopBosses[27].X, coopBosses[27].Y) } --coop27
-	OnOneTimeEvent { Conditions = allMapConditions(28), Actions = allMapActions(28, coopBosses[28].ID, coopBosses[28].X, coopBosses[28].Y) } --coop28
-	OnOneTimeEvent { Conditions = allMapConditions(29), Actions = allMapActions(29, coopBosses[29].ID, coopBosses[29].X, coopBosses[29].Y) } --coop29
-	OnOneTimeEvent { Conditions = allMapConditions(30), Actions = allMapActions(30, coopBosses[30].ID, coopBosses[30].X, coopBosses[30].Y) } --coop30
-	-- OnOneTimeEvent { Conditions = allMapConditions(31), Actions = allMapActions(31, coopBosses[31].ID, coopBosses[31].X, coopBosses[31].Y) } --coop31
-	-- OnOneTimeEvent { Conditions = allMapConditions(32), Actions = allMapActions(32, coopBosses[32].ID, coopBosses[32].X, coopBosses[32].Y) } --coop32
-	-- OnOneTimeEvent { Conditions = allMapConditions(33), Actions = allMapActions(33, coopBosses[33].ID, coopBosses[33].X, coopBosses[33].Y) } --coop33
-	-- OnOneTimeEvent { Conditions = allMapConditions(34), Actions = allMapActions(34, coopBosses[34].ID, coopBosses[34].X, coopBosses[34].Y) } --coop34
-	-- OnOneTimeEvent { Conditions = allMapConditions(35), Actions = allMapActions(35, coopBosses[35].ID, coopBosses[35].X, coopBosses[35].Y) } --coop35
-	-- OnOneTimeEvent { Conditions = allMapConditions(36), Actions = allMapActions(36, coopBosses[36].ID, coopBosses[36].X, coopBosses[36].Y) } --coop36
-	-- OnOneTimeEvent { Conditions = allMapConditions(37), Actions = allMapActions(37, coopBosses[37].ID, coopBosses[37].X, coopBosses[37].Y) } --coop37
-	-- OnOneTimeEvent { Conditions = allMapConditions(38), Actions = allMapActions(38, coopBosses[38].ID, coopBosses[38].X, coopBosses[38].Y) } --coop38
-	-- OnOneTimeEvent { Conditions = allMapConditions(39), Actions = allMapActions(39, coopBosses[39].ID, coopBosses[39].X, coopBosses[39].Y) } --coop39
-	-- OnOneTimeEvent { Conditions = allMapConditions(40), Actions = allMapActions(40, coopBosses[40].ID, coopBosses[40].X, coopBosses[40].Y) } --coop40
-	-- OnOneTimeEvent { Conditions = allMapConditions(41), Actions = allMapActions(41, coopBosses[41].ID, coopBosses[41].X, coopBosses[41].Y) } --coop41
-	-- OnOneTimeEvent { Conditions = allMapConditions(42), Actions = allMapActions(42, coopBosses[42].ID, coopBosses[42].X, coopBosses[42].Y) } --coop42
-	-- OnOneTimeEvent { Conditions = allMapConditions(43), Actions = allMapActions(43, coopBosses[43].ID, coopBosses[43].X, coopBosses[43].Y) } --coop43
-	-- OnOneTimeEvent { Conditions = allMapConditions(44), Actions = allMapActions(44, coopBosses[44].ID, coopBosses[44].X, coopBosses[44].Y) } --coop44
-	-- OnOneTimeEvent { Conditions = allMapConditions(45), Actions = allMapActions(45, coopBosses[45].ID, coopBosses[45].X, coopBosses[45].Y) } --coop45
 
-	EndDefinition()
+CreateStateMachine = function(_arg0, _arg1, _arg2, _arg3, _arg4)
+	for i=1,30 do
+		BeginDefinition(_arg0, _arg1, _arg2, _arg3, _arg4)
+			OnOneTimeEvent { Conditions = allMapConditions(i), Actions = allMapActions(i, coopBosses[i].ID, coopBosses[i].X, coopBosses[i].Y) } --coop1
+		EndDefinition()
+	end
 end
