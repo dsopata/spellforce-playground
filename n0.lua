@@ -69,10 +69,6 @@ coopConditions = {
 	{
 --		coopMapsNoEnemiesOnMap,
 --		coopMapsNoNpcBuildingsOnMap,
---		ObjectExists { X = 277, Y = 141, ObjectId = 2014 },
---		ObjectExists { X = 215, Y = 266, ObjectId = 2089 },
---		ObjectExists { X = 173, Y = 455, ObjectId = 2038 },
---		ObjectExists { X = 177, Y = 454, ObjectId = 2002 },
         ObjectExists { X = 425, Y = 316, ObjectId = 2119 },
         ObjectExists { X = 332, Y = 302, ObjectId = 2064 },
         ObjectExists { X = 102, Y = 289, ObjectId = 842 },
@@ -227,7 +223,7 @@ coopConditions = {
 		-- coopMapsNoNpcBuildingsOnMap,
 		ObjectExists { X = 436,  Y = 379, ObjectId = 527 },
 		ObjectExists { X = 393, Y = 272,  ObjectId = 2434  },
-		ObjectExists { X = 27, Y = 101, ObjectId = 2089 },
+		ObjectExists { X = 277, Y = 101, ObjectId = 2089 },
 		ObjectExists { X = 215, Y = 166, ObjectId = 542 },
 	}, --coop23
 	{
