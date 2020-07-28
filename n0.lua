@@ -76,7 +76,7 @@ coopConditions = {
         ObjectExists { X = 425, Y = 316, ObjectId = 2119 },
         ObjectExists { X = 332, Y = 302, ObjectId = 2064 },
         ObjectExists { X = 102, Y = 289, ObjectId = 842 },
-        ObjectExists { X = 208, Y = 311, ObjectId = 9512 },
+        ObjectExists { X = 208, Y = 311, ObjectId = 951 },
 	}, --coop4
 	{
 --		coopMapsNoEnemiesOnMap,
