@@ -326,6 +326,7 @@ coopConditions = {
 allMapConditions = function(coopId)
 	conditions = coopConditions[coopId]
 	tadd(conditions, coopMapsNoEnemiesOnMap)
+	tadd(conditions, coopMapsNoNpcBuildingsOnMap)
 
 	return conditions
 end
