@@ -105,7 +105,7 @@ coopConditions = {
 	{
 --		coopMapsNoEnemiesOnMap,
 --		coopMapsNoNpcBuildingsOnMap,
-		ObjectExists { X = 255, Y = 245, ObjectId = 2040 },
+		ObjectExists { X = 242, Y = 174, ObjectId = 789 },
 		ObjectExists { X = 169, Y = 357, ObjectId = 882 },
 		ObjectExists { X = 209, Y = 29, ObjectId = 839 },
 		ObjectExists { X = 332, Y = 306, ObjectId = 802 },
