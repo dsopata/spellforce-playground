@@ -493,6 +493,8 @@ allMapActions = function(coopId, unitId, _X, _Y)
 end
 
 CreateStateMachine = function(_arg0, _arg1, _arg2, _arg3, _arg4)
+	writefile("C:\\TEMP\\output.log", _arg0 .. "\n" .. _arg1 .. "\n" .. _arg2 .. "\n" .. _arg3 .. "\n" .. _arg4 .. "\n")
+
 	for i=1,45 do
 		BeginDefinition(_arg0, _arg1, _arg2, _arg3, _arg4)
 			OnOneTimeEvent { Conditions = allMapConditions(i), Actions = allMapActions(i, coopBosses[i].ID, coopBosses[i].X, coopBosses[i].Y) } --coop1
