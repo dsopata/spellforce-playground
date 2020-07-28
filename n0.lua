@@ -29,6 +29,36 @@ coopBosses = { -- ID, X, Y
 	{ID = 2304, X =  163, Y = 185  }, --coop28
 	{ID = 2500, X = 185, Y = 47   }, --coop29
 	{ID = 2439, X = 353, Y = 132  }, --coop30
+	{ID = 636, X = 116, Y = 197}, --coop1
+	{ID = 660, X = 150, Y = 100}, --coop2
+	{ID = 890, X = 300, Y = 300}, --coop3
+	{ID = 839, X = 300, Y = 400}, --coop4
+	{ID = 757, X = 288, Y = 88}, --coop5
+	{ID = 130, X = 267, Y = 227}, --coop6
+	{ID = 914, X = 230, Y = 417}, --coop7
+	{ID = 640, X = 393 , Y = 245}, --coop8
+	{ID = 997, X = 285, Y = 291}, --coop9
+	{ID = 1733, X = 219, Y = 426}, --coop10
+	{ID = 2461, X = 234, Y = 100}, --coop11
+	{ID = 489, X = 220, Y = 444}, --coop12
+	{ID = 1422, X = 235, Y = 316}, --coop13
+	{ID = 2316, X = 210, Y = 405}, --coop14
+	{ID = 708, X = 356, Y = 251}, --coop15
+	{ID = 1104, X = 315, Y = 333 }, --coop16
+	{ID = 2876 , X = 295, Y = 204  }, --coop17
+	{ID = 2266 , X = 210, Y = 115  }, --coop18
+	{ID = 2273 , X = 304, Y = 165  }, --coop19
+	{ID = 2538 , X = 212, Y = 384   }, --coop20
+	{ID = 1069, X = 211, Y = 264   }, --coop21
+	{ID = 1766, X = 362, Y = 476   }, --coop22
+	{ID = 2014, X = 247, Y = 225  }, --coop23
+	{ID = 2277 , X = 224, Y = 215   }, --coop24
+	{ID = 2528 , X = 214, Y = 216   }, --coop25
+	{ID = 2780, X = 469, Y = 453  }, --coop26
+	{ID = 2084, X = 163, Y = 479   }, --coop27
+	{ID = 2304, X =  163, Y = 185  }, --coop28
+	{ID = 2500, X = 185, Y = 47   }, --coop29
+	{ID = 2439, X = 353, Y = 132  }, --coop30
 }
 
 coopMapsNoEnemiesOnMap = Negated(
@@ -337,7 +367,7 @@ coopConditions = {
 		ObjectExists { X = 282, Y = 268, ObjectId = 2608 },
 		ObjectExists { X = 274, Y = 266, ObjectId = 1934 },
 		ObjectExists { X = 187, Y = 246, ObjectId = 2160 },
-		ObjectExists { X = 59, Y = 231, ObjectId = 2752 },
+		ObjectExists { X = 55, Y = 359, ObjectId = 786 },
 	}, --coop37
 	{
 		-- coopMapsNoEnemiesOnMap,
@@ -432,7 +462,7 @@ allMapActions = function(coopId, unitId, _X, _Y)
 end
 
 CreateStateMachine = function(_arg0, _arg1, _arg2, _arg3, _arg4)
-	for i=1,30 do
+	for i=1,45 do
 		BeginDefinition(_arg0, _arg1, _arg2, _arg3, _arg4)
 			OnOneTimeEvent { Conditions = allMapConditions(i), Actions = allMapActions(i, coopBosses[i].ID, coopBosses[i].X, coopBosses[i].Y) } --coop1
 		EndDefinition()
