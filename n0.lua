@@ -83,7 +83,7 @@ coopConditions = {
 --		coopMapsNoNpcBuildingsOnMap,
 		ObjectExists { X = 274, Y = 226, ObjectId = 859 },
 		ObjectExists { X = 157, Y = 158, ObjectId = 839 },
-		ObjectExists { X = 375, Y = 72, ObjectId = 2681 },
+		ObjectExists { X = 155, Y = 215, ObjectId = 2650 },
 		ObjectExists { X = 154, Y = 217, ObjectId = 851 },
 	}, --coop5
 	{
